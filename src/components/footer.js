@@ -1,9 +1,9 @@
 const Footer = () => {
   return (
-    <footer aria-labelledby="footer-heading">
+    <footer className="w-full bg-slate-100" aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">Footer</h2>
       
-      <div className="px-5 py-12 mx-auto bg-slate-100 max-w-7xl sm:px-6 md:flex md:items-center md:justify-between lg:px-20">
+      <div className="w-full px-5 py-12 mx-auto max-w-7xl sm:px-6 md:flex md:items-center md:justify-between lg:px-20">
         <div className="flex justify-center mb-8 space-x-6 md:order-last md:mb-0">
           <a href="https://www.facebook.com/digitalgrowersmx" className="text-gray-400 hover:text-indigo-600">
             <span className="sr-only">Facebook</span>
@@ -37,7 +37,7 @@ const Footer = () => {
           
         </div>
 
-        <div className="mt-8 md:mt-0 md:order-1">
+        <div className="mt-8 md:mt-0 md:order-1 text-center">
           <span className="mt-2 text-sm font-light text-gray-500">
             Design & Development by
             <a href="https://vianydev.github.io" className="mx-2 text-wickedblue hover:text-indigo-600" rel="noopener noreferrer">@digitalgrowersmx</a>• <a href="https://vianydev.github.io" className="mx-2 text-wickedblue hover:text-indigo-600" rel="noopener noreferrer">viany.dev</a>

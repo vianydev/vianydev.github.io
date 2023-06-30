@@ -3,9 +3,9 @@ import AboutMe from "@/components/about-me"
 
 export default function Home() {
   return (
-    <section>
+    <div>
       <Hero />
       <AboutMe />
-    </section>
+    </div>
   )
 }
