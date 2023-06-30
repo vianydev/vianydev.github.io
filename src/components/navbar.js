@@ -1,60 +1,66 @@
 'use client'
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from 'next/link'
+import { usePathname } from 'next/navigation';
 const Navbar = () => {
 
-    let arr = [ true, false, false, false, false, false ]
-    const [ style, setStyle ] = useState(arr);
+  const currentPath = usePathname();
+  const menuItems = [
+    { label: 'Home', path: '/' },
+    { label: 'Last Projects', path: '/work' },
+    { label: 'Portfolio', path: '/portfolio' },
+    { label: 'Contact', path: '/contact' },
+  ];
+
     const [ dropDown, setDropDown ] = useState(true);
     const [ text, setText ] = useState("");
-
-    const selected = (props) => {
-      let newArr = [ ...arr ];
-      for (let i = 0; i < newArr.length; i++) {
-        newArr[ i ] = false;
-      }
-      newArr[ props ] = true;
-      setStyle(newArr);
-    }
 
     const setSelectedText = (txt) => {
       setText(txt);
       setDropDown(true);
     }
   
-  // const handleStyle = (e) => {
-  //   const navItem = e.target;
-  //   navItem.classList.add('text-indigo-500')
-  // }
+  useEffect(() => {
+    const navItems = document.querySelectorAll('.nav-item');
+
+    navItems.forEach(item => {
+      item.classList.remove('active')
+      if (currentPath.includes(item.id)) {
+        item.classList.add('active')
+      } 
+    })
+
+  }, [currentPath])
 
     return (
       <header className="mx-auto fixed z-50 w-full 2xl:flex 2xl:justify-around">
         <div className="bg-white py-5 px-7">
           <nav className="flex justify-between">
-            <Link href='/' className="flex items-center space-x-3 lg:pr-16 pr-6" onClick={() => selected(0)}>
+            <Link href='/' className="flex items-center space-x-3 lg:pr-16 pr-6">
               <h2 className="font-bold text-2xl leading-6 text-gray-800 ">viany.dev</h2>
             </Link>
             {/* For medium and plus sized devices */}
             <ul className="hidden md:flex flex-auto space-x-2 justify-end">
               <li
                 id="work"
-                onClick={() => selected(1)}
-                className={`${style[ 1 ] ?
-                  'text-indigo-500' :
-                  'text-gray-600 border border-white'} focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 cursor-pointer px-3 pt-2 pb-4 font-normal leading-3 hover:text-indigo-600`}> <Link href='/about'>Last projects</Link></li>
+                className={`nav-item text-gray-500 border-b-2 border-transparent focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 cursor-pointer px-3 pt-2 pb-4 font-normal leading-3 hover:text-indigo-600 hover:border-indigo-600`}
+              >
+                <Link href='/work' name="work">Last projects</Link>
+              </li>
               <li
                 id="portfolio"
-                onClick={() => selected(2)}
-                className={`${style[ 2 ] ?
-                  'text-indigo-500' :
-                  'text-gray-600 border border-white'} focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 cursor-pointer px-3 pt-2 pb-4 font-normal leading-3 hover:text-indigo-600`}> <Link href='/portfolio'>Portfolio</Link></li>
+                className={`nav-item text-gray-500 border-b-2 border-transparent focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 cursor-pointer px-3 pt-2 pb-4 font-normal leading-3 hover:text-indigo-600 hover:border-indigo-600`}
+              >
+                <Link href='/portfolio'>Portfolio</Link>
+              </li>
               <li
                 id="contact"
-                onClick={() => selected(3)}
-                className={`${style[ 3 ] ?
-                  'text-indigo-500' :
-                  'text-gray-600 border border-white'} focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 cursor-pointer px-3 pt-2 pb-4 font-normal leading-3 hover:text-indigo-600`}>Contact</li>
+                className={`nav-item text-gray-500 border-b-2 border-transparent focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 cursor-pointer px-3 pt-2 pb-4 font-normal leading-3 hover:text-indigo-600 hover:border-indigo-600`}
+              >
+                <Link href='/contact'>Contacto</Link>
+              </li>
             </ul>
+
             <div className=" flex space-x-5 justify-center items-center pl-2">
               <div className="relative cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 ">
                 <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -69,6 +75,8 @@ const Navbar = () => {
               </svg>
             </div>
           </nav>
+
+
           {/* for smaller devcies */}
           <div className="block md:hidden w-full mt-5 ">
             <div onClick={() => setDropDown(!dropDown)} className="cursor-pointer px-4 py-3 text-white bg-indigo-600 rounded flex justify-between items-center w-full">
@@ -84,19 +92,27 @@ const Navbar = () => {
                 <li
                   onClick={() => setSelectedText("Home")}
                   className="px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal"
-                >Home</li>
+                >
+                  <Link href='/'>Home</Link>
+                </li>
                 <li
-                  onClick={() => setSelectedText("About me")}
+                  onClick={() => setSelectedText("Last projects")}
                   className="px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal"
-                >About me</li>
+                >
+                  <Link href='/work'>Work</Link>
+                </li>
                 <li
                   onClick={() => setSelectedText("Portfolio")}
                   className="px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal"
-                >Portfolio</li>
+                >
+                  <Link href='/portfolio'>Portfolio</Link>
+                </li>
                 <li
                   onClick={() => setSelectedText("Contact")}
                   className="px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal"
-                >Contact</li>
+                >
+                  <Link href='/contact'>Contact</Link>
+                </li>
                 
               </ul>
             </div>

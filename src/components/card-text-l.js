@@ -1,18 +1,8 @@
-const CardProject = () => {
+const CardTextL = () => {
   return (
-    <div className="container overflow-hidden flex flex-col bg-cover rounded-lg bg-slate-100" >
-
-      <div className="overflow-hidden bg-cover cursor-pointer h-96 group bg-slate-100"
-        style={{ backgroundImage: "url(/image/himnapp/himapp-app.jpg)" }}>
-
-        <div className="flex flex-col md:flex-row justify-center items-center w-full h-full px-8 py-4 transition-opacity duration-700  backdrop-blur-sm opacity-0 bg-indigo-800/60 group-hover:opacity-100">
-          <p className="py-2 px-4 m-2 rounded-sm text-xs tracking-wider text-indigo-100 bg-indigo-400 uppercase ">html/css</p>
-          <p className="py-2 px-4 m-2 rounded-sm text-xs tracking-wider text-indigo-100 bg-indigo-400 uppercase ">javascript</p>
-          <p className="py-2 px-4 m-2 rounded-sm text-xs tracking-wider text-indigo-100 bg-indigo-400 uppercase ">React</p>
-        </div>
-      </div>
-
-      <div className="flex flex-col justify-between w-full px-8 py-4 h-96 lg:h-80 max-h-[400px] backdrop-blur-sm bg-slate-50">
+    <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 bg-slate-50 rounded-lg">
+      
+      <div className="flex flex-col justify-between ml-4 mr-2 my-8">
         <div>
           <h2 className="mt-3 mb-2 text-xs font-semibold tracking-widest text-neutral-500 uppercase">Project type</h2>
           <h1 className="text-2xl font-semibold leading-none tracking-tighter text-neutral-700 lg:text-3xl">Project name</h1>
@@ -37,8 +27,17 @@ const CardProject = () => {
         </div>
       </div>
 
-    </div>  
+      <div className="overflow-hidden bg-cover cursor-pointer h-96 group bg-slate-100 rounded-lg"
+        style={{ backgroundImage: "url(/image/himnapp/himapp-app.jpg)" }}>
+
+        <div className="flex flex-col md:flex-row justify-center items-center w-full h-full px-8 py-4 transition-opacity duration-700  backdrop-blur-sm opacity-0 bg-indigo-800/60 group-hover:opacity-100 ">
+          <p className="py-2 px-4 m-2 rounded-sm text-xs tracking-wider text-indigo-100 bg-indigo-400 uppercase ">html/css</p>
+          <p className="py-2 px-4 m-2 rounded-sm text-xs tracking-wider text-indigo-100 bg-indigo-400 uppercase ">javascript</p>
+          <p className="py-2 px-4 m-2 rounded-sm text-xs tracking-wider text-indigo-100 bg-indigo-400 uppercase ">React</p>
+        </div>
+      </div>
+    </div>
   )
 }
 
-export default CardProject
+export default CardTextL
