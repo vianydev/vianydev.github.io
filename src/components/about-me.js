@@ -1,5 +1,4 @@
 import Image from "next/image"
-import SecondaryButton from "./secondary-button"
 import PrimaryButton from "./primary-button"
 
 const AboutMe = () => {
@@ -14,7 +13,7 @@ const AboutMe = () => {
                     <Image
                       className="object-cover object-center mx-auto rounded-lg shadow-2xl"
                       src='/image/main-profile.jpg'
-                      placeholder='empty' // {empty} | {blur}
+                      placeholder='empty'
                       priority={true}
                       width={500}
                       height={500}
@@ -22,12 +21,10 @@ const AboutMe = () => {
                     />
                 </div>
               </div>
+              {/* Download CV button */}
               {/* <div className="my-5">
-                <h1 className="text-xl">Laborum aute minim in officia ad id ea tempor </h1>
-                <h2>Laborum aute minim in officia ad id ea tempor nostrud culpa laborum ad consectetur cillum.</h2>
                 <div className="flex flex-col sm:flex-row justify-start m-0">  
-                  <SecondaryButton className="mx-0" link={'/'}> hola </SecondaryButton>
-                  <PrimaryButton className="mx-0" link={'/'}> hola </PrimaryButton>
+                  <PrimaryButton className="mx-0" link={'/'}> Download CV </PrimaryButton>
                 </div>
               </div> */}
 
@@ -38,7 +35,7 @@ const AboutMe = () => {
               About me
             </span>
             <h1 className="mb-4 text-xl font-bold leading-none tracking-tighter text-neutral-600 md:text-2xl lg:text-4xl">
-              <span className="text-neutral-700/70">My name is</span> Vianey,
+              <span className="text-neutral-600">My name is</span> Vianey,
               <p className="text-xl mt-4 font-normal tracking-normal"> As a web developer, I thrive on transforming concepts into digital experiences through the power of code! </p>
             </h1>
 

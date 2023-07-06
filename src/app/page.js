@@ -1,7 +1,7 @@
 import Hero from "@/components/hero"
 import AboutMe from "@/components/about-me"
 import LastestProjects from "@/components/lastest-projects"
-import CtaContact from "@/components/cta-contact"
+import ContactSection from "@/components/contact-section"
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       <Hero />
       <AboutMe />
       <LastestProjects />
-      <CtaContact />
+      <ContactSection />
     </div>
   )
 }
