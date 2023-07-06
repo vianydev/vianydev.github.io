@@ -29,3 +29,11 @@ body {
 .active {
   color: #4f46e5 !important;
 }
+
+.hover-content {
+  display: none;
+}
+
+.button:hover + .hover-content {
+  display: block;
+}
