@@ -20,7 +20,7 @@ const HeroPhoto = () => {
           </h1>
 
           <p className="max-w-xl mx-auto mt-8 text-base leading-relaxed text-center text-gray-500">
-            I'm a Freelancer Front-end Developer, over 6 years of professional experience.
+            I&#39;m a Freelancer Front-end Developer, over 6 years of professional experience.
           </p>
 
           <a className="mx-auto mt-8 text-sm font-semibold text-blue-600 hover:text-neutral-600" title="read more">
