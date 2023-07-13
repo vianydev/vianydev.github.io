@@ -14,7 +14,7 @@ const LastestProjects = () => {
           Lastest projects
         </h1>
       </div>
-      <div className="grid grid-cols-1 gap-4 mt-8 xl:mt-12 xl:gap-6 md:grid-cols-3">
+      <div className="grid grid-cols-1 gap-2 mt-8 xl:mt-12 xl:gap-6 md:grid-cols-2 lg:grid-cols-3">
 
         <CardProject
           urlImage={himnapp.image}
@@ -32,7 +32,7 @@ const LastestProjects = () => {
           description={construin.description}
           tags={construin.tags}
           urlLive={construin.urlLive}
-          urlRepo={construin.urlRepo}
+          hideRepo="none"
         />
         <CardProject
           urlImage={temperamentos.image}
@@ -45,7 +45,7 @@ const LastestProjects = () => {
         />
       </div>
       <div className="mt-10 w-full flex">
-        <PrimaryButton link="/portfolio">Portfolio</PrimaryButton>
+        <PrimaryButton link="/portfolio">Ver más</PrimaryButton>
       </div>
     </section>
   )

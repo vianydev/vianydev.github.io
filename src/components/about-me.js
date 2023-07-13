@@ -31,7 +31,7 @@ const AboutMe = () => {
             </div>
           </div>
           <div className="flex flex-col items-start mt-12 xs:mt-0 mb-16 text-left lg:flex-grow lg:w-1/2 lg:pl-6 xl:pl-24 md:mb-0 xl:mt-0">
-            <span className="mb-8 text-xs font-bold tracking-widest text-indigo-700 uppercase">
+            <span className="mb-6 text-xs font-bold tracking-widest text-indigo-700 uppercase">
               About me
             </span>
             <h1 className="mb-4 text-xl font-bold leading-none tracking-tighter text-neutral-600 md:text-2xl lg:text-4xl">
