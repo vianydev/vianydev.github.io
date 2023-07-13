@@ -7,7 +7,6 @@ export const himnapp = {
   urlRepo: 'https://github.com/vianydev/himnapp',
   urlLive: 'https://vianydev.github.io/himnapp/'
 }
-
 export const swmonse = {
   name: 'Spanish with monse',
   type: 'Website',
@@ -17,7 +16,6 @@ export const swmonse = {
   urlRepo: 'https://github.com/vianydev/spanish-with-monse',
   urlLive: 'https://www.spanishwithmonse.com/'
 }
-
 export const temperamentos = {
   name: 'Temperamentos',
   type: 'app web',
@@ -27,7 +25,6 @@ export const temperamentos = {
   urlRepo: 'https://github.com/vianydev/temperamentos',
   urlLive: 'https://vianydev.github.io/temperamentos/'
 }
-
 export const focusNow = {
   name: 'Focus Now',
   type: 'app web',
@@ -37,7 +34,6 @@ export const focusNow = {
   urlRepo: 'https://github.com/vianydev/focusnow',
   urlLive: 'https://www.spanishwithmonse.com/'
 }
-
 export const pieb = {
   name: 'PIEB Co',
   type: 'web',
@@ -47,7 +43,6 @@ export const pieb = {
   urlRepo: '',
   urlLive: 'https://www.iglesiabautistacoatza.com/'
 }
-
 export const construin = {
   name: 'construin',
   type: 'web',
