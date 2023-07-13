@@ -9,8 +9,7 @@ const CardTextR = ({
   urlLive
 }) => {
   return (
-    <div
-      className="grid grid-cols-1 gap-1 mt-8 xl:mt-12 xl:gap-8 md:grid-cols-2 bg-slate-50 rounded-lg ">
+    <div className="grid grid-cols-1 gap-1 mt-8 xl:mt-12 xl:gap-8 md:grid-cols-2 bg-slate-50 rounded-lg ">
       
       <div
         className="overflow-hidden bg-cover h-96 bg-slate-100  border border-slate-100 bg-center rounded-lg"
@@ -38,13 +37,13 @@ const CardTextR = ({
           
         </div>
         <div className="pt-4">
-          <IconButton href={urlLive} title={"live"}>
+          <IconButton url={urlLive} title={"live"}>
             View site
             <svg className="w-6 h-6 ml-2" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
             </svg>
           </IconButton>
-          <IconButton href={urlRepo} title={"Repository"}>
+          <IconButton url={urlRepo} title={"Repository"}>
             Repository
             <svg className="w-6 h-6 ml-2" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" />
