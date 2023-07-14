@@ -1,5 +1,6 @@
 import Image from "next/image"
-import PrimaryButton from "./primary-button"
+// import PrimaryButton from "./primary-button"
+import profilePicture from '../../public/image/profile-picture.jpg'
 
 const AboutMe = () => {
   return (
@@ -12,11 +13,11 @@ const AboutMe = () => {
                 <div className="relative">
                     <Image
                       className="object-cover object-center mx-auto rounded-lg shadow-2xl"
-                      src='/image/main-profile.jpg'
+                      src={profilePicture}
                       placeholder='empty'
                       priority={true}
-                      width={500}
-                      height={500}
+                      // width={500}
+                      // height={500}
                       alt="About me picture"
                     />
                 </div>
