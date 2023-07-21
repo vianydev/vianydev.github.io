@@ -7,8 +7,6 @@ const CardProject = ({
   tags,
   urlRepo,
   urlLive,
-  hideLive,
-  hideRepo
 }) => {
   return (
     <div className="group overflow-hidden flex flex-col bg-cover rounded-lg bg-slate-50 transition ease-in-out duration-300 transform hover:scale-[1.03]" >
@@ -24,13 +22,13 @@ const CardProject = ({
               {projectType}
             </h2>
             <div>
-              <IconButton url={urlRepo} displayIs={hideRepo} title={"Repository"}>
+              <IconButton url={urlRepo} title={"Repository"}>
                 {/* Repository */}
                 <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" />
                 </svg>
               </IconButton>
-              <IconButton url={urlLive} displayIs={hideLive} title={"live"}>
+              <IconButton url={urlLive} title={"live"}>
                 {/* View site */}
                 <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />

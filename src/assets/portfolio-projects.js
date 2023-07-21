@@ -52,7 +52,6 @@ export const construin = {
   urlRepo: 'https://github.com/vianydev/construin',
   urlLive: 'https://vianydev.github.io/construin/'
 }
-
 export const himnappweb = {
   name: 'Himnapp - website',
   type: 'web',

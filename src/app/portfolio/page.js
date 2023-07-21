@@ -39,7 +39,6 @@ export default function Portfolio() {
           urlLive={swmonse.urlLive}
           urlRepo={swmonse.urlRepo}
         />
-
         <CardProject
           urlImage={pieb.image}
           projectName={pieb.name}
@@ -47,7 +46,7 @@ export default function Portfolio() {
           description={pieb.description}
           tags={pieb.tags}
           urlLive={pieb.urlLive}
-          hideRepo='none'
+          urlRepo={pieb.urlRepo}
         />
         <CardProject
           urlImage={temperamentos.image}

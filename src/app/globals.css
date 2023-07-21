@@ -25,3 +25,10 @@
     )
     rgb(var(--background-start-rgb));
 } */
+
+.hideIcon {
+  display: none !important;
+}
+.showIcon {
+  display: inline-flex !important;
+}
