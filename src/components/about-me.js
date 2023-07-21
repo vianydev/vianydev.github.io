@@ -19,7 +19,7 @@ const AboutMe = () => {
                       // width={500}
                       // height={500}
                       alt="About me picture"
-                    />
+                  />
                 </div>
               </div>
               {/* Download CV button */}
