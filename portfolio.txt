@@ -1,6 +1,6 @@
 1:HL["/vianydev.github.io/_next/static/media/2aaf0723e720e8b9-s.p.woff2",{"as":"font","type":"font/woff2"}]
 2:HL["/vianydev.github.io/_next/static/css/12ec295163680ded.css",{"as":"style"}]
-0:["YyTLZJJs3jcpTyaggFg7F",[[["",{"children":["portfolio",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/vianydev.github.io/_next/static/css/12ec295163680ded.css","precedence":"next"}]],["$L4",["$","meta",null,{"name":"next-size-adjust"}]]]]]]
+0:["YOXKVgUgU13xQfSKnnp7n",[[["",{"children":["portfolio",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/vianydev.github.io/_next/static/css/12ec295163680ded.css","precedence":"next"}]],["$L4",["$","meta",null,{"name":"next-size-adjust"}]]]]]]
 5:I{"id":"7477","chunks":["477:static/chunks/477-4978b8adf8c9a0ee.js","444:static/chunks/app/portfolio/page-068127ed1fec6cc9.js"],"name":"","async":false}
 6:I{"id":"3211","chunks":["272:static/chunks/webpack-861a5c23ecb9d08a.js","253:static/chunks/bce60fc1-49ee79ad31766ac6.js","769:static/chunks/769-89bb8f675e811f0d.js"],"name":"","async":false}
 7:I{"id":"5767","chunks":["272:static/chunks/webpack-861a5c23ecb9d08a.js","253:static/chunks/bce60fc1-49ee79ad31766ac6.js","769:static/chunks/769-89bb8f675e811f0d.js"],"name":"","async":false}
