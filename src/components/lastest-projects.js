@@ -45,7 +45,7 @@ const LastestProjects = () => {
         />
       </div>
       <div className="mt-10 w-full flex">
-        <ButtonPrimary link="/portfolio">Ver más</ButtonPrimary>
+        <ButtonPrimary link="/portfolio">Portfolio</ButtonPrimary>
       </div>
     </section>
   )

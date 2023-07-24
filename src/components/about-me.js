@@ -1,6 +1,5 @@
 import Image from "next/image"
-import ButtonPrimary from "./button-primary"
-import profilePicture from '../../public/image/profile-picture.jpg'
+import ButtonBox from "./button-box"
 
 const AboutMe = () => {
   return (
@@ -25,7 +24,12 @@ const AboutMe = () => {
               {/* Download CV button */}
               <div className="my-5">
                 <div className="flex flex-col sm:flex-row justify-start m-0">
-                  <ButtonPrimary className="mx-0" link={'/'}> Download CV </ButtonPrimary>
+                  <ButtonBox
+                    className="mx-0"
+                    setTarget="_blank"
+                    url={"https://drive.google.com/file/d/1nnw5eBDUnle_a6G5SWDe-4MC7GpexEe6/view?usp=drive_link"}>
+                    Resume
+                  </ButtonBox>
                 </div>
               </div>
 

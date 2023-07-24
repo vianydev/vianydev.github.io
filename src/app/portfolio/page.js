@@ -7,6 +7,7 @@ import {
   temperamentos,
   himnappweb
 } from "@/assets/portfolio-projects"
+import ButtonSecondary from "@/components/button-secondary"
 
 export default function Portfolio() {
 
@@ -70,6 +71,8 @@ export default function Portfolio() {
 
 
       <div className="my-10 border-b border-gray-200"></div>
+
+      <ButtonSecondary link="/">Back Home</ButtonSecondary>
 
 
     </section>

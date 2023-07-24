@@ -1,4 +1,3 @@
-import ButtonPrimary from "./button-primary"
 const Hero = () => {
   return (
     <section className="my-0 mx-auto px-3 max-w-7xl md:px-20 lg:px-24 lg:py-30">
@@ -18,8 +17,6 @@ const Hero = () => {
         <p className="max-w-xl mx-auto mt-8 text-xl md:text-2xl leading-relaxed text-center text-neutral-600/70">
           Building websites and training others about technology and digital media.
         </p>
-
-        {/* <ButtonPrimary link='/portfolio'>Portfolio</ButtonPrimary> */}
 
       </div>
     </section>
