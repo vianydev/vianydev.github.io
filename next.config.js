@@ -2,9 +2,9 @@
 const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig = {
-  basePath: isProd ? '/vianydev.github.io' : '',
-  assetPrefix: isProd ? '/vianydev.github.io/' : '',
-  reactStrictMode: true,
+  basePath: isProd ? '' : '',
+  assetPrefix: isProd ? '' : '',
+  output: "export"
 }
 
 module.exports = nextConfig
