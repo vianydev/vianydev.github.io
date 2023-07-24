@@ -1,5 +1,5 @@
 import Image from "next/image"
-// import PrimaryButton from "./primary-button"
+import ButtonPrimary from "./button-primary"
 import profilePicture from '../../public/image/profile-picture.jpg'
 
 const AboutMe = () => {
@@ -11,23 +11,23 @@ const AboutMe = () => {
             <div className="flex flex-col">
               <div className="relative w-full max-w-lg my-5 mx-auto">
                 <div className="relative">
-                    <Image
-                      className="object-cover object-center mx-auto rounded-lg shadow-2xl"
-                      src={profilePicture}
-                      placeholder='empty'
-                      priority={true}
-                      // width={500}
-                      // height={500}
-                      alt="About me picture"
+                  <Image
+                    className="object-cover object-center mx-auto rounded-lg shadow-2xl"
+                    src="/image/profile-picture.jpg"
+                    placeholder='empty'
+                    priority={true}
+                    width={500}
+                    height={500}
+                    alt="About me picture"
                   />
                 </div>
               </div>
               {/* Download CV button */}
-              {/* <div className="my-5">
-                <div className="flex flex-col sm:flex-row justify-start m-0">  
-                  <PrimaryButton className="mx-0" link={'/'}> Download CV </PrimaryButton>
+              <div className="my-5">
+                <div className="flex flex-col sm:flex-row justify-start m-0">
+                  <ButtonPrimary className="mx-0" link={'/'}> Download CV </ButtonPrimary>
                 </div>
-              </div> */}
+              </div>
 
             </div>
           </div>
@@ -40,16 +40,16 @@ const AboutMe = () => {
               <p className="text-xl mt-4 font-normal tracking-normal"> As a web developer, I thrive on transforming concepts into digital experiences through the power of code! </p>
             </h1>
 
-              <p className="mb-6 text-base leading-relaxed text-left text-neutral-700">
-                I&#39;m passionate about technology, creating great websites, and helping others in leveraging digital tools to achieve their goals.
-              </p>
-              <p className="mb-6 text-base leading-relaxed text-left text-neutral-700">
-                I&#39;ve been fortunate to work for an international ship with people from more than 60 countries, getting tons of experience in how to collaborate on cross-cultural teams. I also have multimedia creation and problem-solving skills.
-              </p>
-              <p className="mb-6 text-base leading-relaxed text-left text-neutral-700">
-                Currently, my main focus is collaborating with businesses and entrepreneurs, supporting them in incorporating digital solutions that help them grow, finding the most effective ways to communicate their value, and connecting them to the world through the internet.
-              </p>
-              
+            <p className="mb-6 text-base leading-relaxed text-left text-neutral-700">
+              I&#39;m passionate about technology, creating great websites, and helping others in leveraging digital tools to achieve their goals.
+            </p>
+            <p className="mb-6 text-base leading-relaxed text-left text-neutral-700">
+              I&#39;ve been fortunate to work for an international ship with people from more than 60 countries, getting tons of experience in how to collaborate on cross-cultural teams. I also have multimedia creation and problem-solving skills.
+            </p>
+            <p className="mb-6 text-base leading-relaxed text-left text-neutral-700">
+              Currently, my main focus is collaborating with businesses and entrepreneurs, supporting them in incorporating digital solutions that help them grow, finding the most effective ways to communicate their value, and connecting them to the world through the internet.
+            </p>
+
             <div className="w-full">
               <span className="mb-6 text-xs font-bold tracking-widest text-indigo-700 uppercase">
                 Tech I&#39;ve been working with
@@ -61,7 +61,7 @@ const AboutMe = () => {
                     <li>JavaScript</li>
                     <li>React</li>
                     <li>WordPress</li>
-                 </ul>
+                  </ul>
                 </div>
                 <div className="py-4 mt-4">
                   <ul className="marker:text-indigo-400 list-disc list-inside text-neutral-700/70">
@@ -71,14 +71,14 @@ const AboutMe = () => {
                     <li>Bootstrap</li>
                   </ul>
                 </div>
-                
+
                 <div className="py-4 mt-4">
                   <ul className="marker:text-indigo-400 list-disc list-inside text-neutral-700/70">
                     <li>Node.js</li>
                     <li>Postgresql</li>
                     <li>Sql</li>
                     <li>Git/CLI</li>
-                 </ul>
+                  </ul>
                 </div>
                 <div className="py-4 mt-4">
                   <ul className="marker:text-indigo-400 list-disc list-inside text-neutral-700/70">
@@ -88,9 +88,9 @@ const AboutMe = () => {
                     <li>Photoshop</li>
                     <li>Ligthroom</li>
                     <li>Premiere</li>
-                 </ul>
+                  </ul>
                 </div>
-               
+
               </div>
             </div>
           </div>

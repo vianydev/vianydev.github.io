@@ -1,5 +1,4 @@
-import PrimaryButton from "./primary-button"
-import SecondaryButton from "./secondary-button"
+import ButtonPrimary from "./button-primary"
 const Hero = () => {
   return (
     <section className="my-0 mx-auto px-3 max-w-7xl md:px-20 lg:px-24 lg:py-30">
@@ -20,8 +19,8 @@ const Hero = () => {
           Building websites and training others about technology and digital media.
         </p>
 
-        <PrimaryButton link='/portfolio'>Portfolio</PrimaryButton>
-        
+        {/* <ButtonPrimary link='/portfolio'>Portfolio</ButtonPrimary> */}
+
       </div>
     </section>
   )

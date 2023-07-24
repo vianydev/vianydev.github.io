@@ -1,5 +1,5 @@
 import CardProject from "./card-project"
-import PrimaryButton from "./primary-button"
+import ButtonPrimary from "./button-primary"
 import {
   himnapp,
   construin,
@@ -45,7 +45,7 @@ const LastestProjects = () => {
         />
       </div>
       <div className="mt-10 w-full flex">
-        <PrimaryButton link="/portfolio">Ver más</PrimaryButton>
+        <ButtonPrimary link="/portfolio">Ver más</ButtonPrimary>
       </div>
     </section>
   )
