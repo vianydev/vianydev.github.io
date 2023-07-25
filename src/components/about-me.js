@@ -3,7 +3,7 @@ import ButtonBox from "./button-box"
 
 const AboutMe = () => {
   return (
-    <section>
+    <section id="about">
       <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-24 bg-slate-50">
         <div className="flex flex-wrap items-start mx-auto max-w-7xl">
           <div className="w-full lg:max-w-lg lg:w-1/2 rounded-xl">
