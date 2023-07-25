@@ -18,7 +18,7 @@ const Hero = () => {
           Building websites and training others about technology and digital media.
         </p>
 
-        <div className="mt-8 mx-auto text-center text-indigo-400">
+        <div className="mt-11 mx-auto text-center text-indigo-400">
           <a href="#about">
             <svg fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 animate-bounce">
               <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" />
