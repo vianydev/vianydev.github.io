@@ -1,3 +1,5 @@
+// deja la url con un empty string que no quiera que aparezca
+
 export const himnapp = {
   name: 'himnapp',
   type: 'app web',
@@ -48,8 +50,9 @@ export const construin = {
   type: 'web',
   description: '',
   tags: [ 'html/css', 'javascript', 'bootstrap' ],
-  image: "url(/image/construin.jpg)",
-  urlRepo: 'https://github.com/vianydev/construin',
+  image: "url(/image/construin-2.jpg)",
+  // urlRepo: 'https://github.com/vianydev/construin',
+  urlRepo: '',
   urlLive: 'https://vianydev.github.io/construin/'
 }
 export const himnappweb = {
@@ -61,12 +64,12 @@ export const himnappweb = {
   urlRepo: 'https://github.com/vianydev/himnappweb',
   urlLive: 'https://vianydev.github.io/himnappweb/'
 }
-export const jerez = {
+export const jerezweb = {
   name: 'Jerez y asociados',
   type: 'web',
-  description: '',
+  description: 'Website built according to the client\'s design',
   tags: [ 'html/css', 'javascript', 'bootstrap' ],
-  image: "url(/image/swmonse/swmonse.jpg)",
+  image: "url(/image/jerezweb-2.jpg)",
   urlRepo: '',
   urlLive: 'https://www.jerezyasociados.com.mx/'
 }

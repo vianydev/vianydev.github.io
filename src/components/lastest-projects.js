@@ -32,7 +32,7 @@ const LastestProjects = () => {
           description={construin.description}
           tags={construin.tags}
           urlLive={construin.urlLive}
-          hideRepo="none"
+          urlRepo={construin.urlRepo}
         />
         <CardProject
           urlImage={temperamentos.image}

@@ -5,7 +5,9 @@ import {
   swmonse,
   pieb,
   temperamentos,
-  himnappweb
+  himnappweb,
+  construin,
+  jerezweb
 } from "@/assets/portfolio-projects"
 import ButtonSecondary from "@/components/button-secondary"
 
@@ -57,6 +59,24 @@ export default function Portfolio() {
           tags={temperamentos.tags}
           urlLive={temperamentos.urlLive}
           urlRepo={temperamentos.urlRepo}
+        />
+        <CardProject
+          urlImage={construin.image}
+          projectName={construin.name}
+          projectType={construin.type}
+          description={construin.description}
+          tags={construin.tags}
+          urlLive={construin.urlLive}
+          urlRepo={construin.urlRepo}
+        />
+        <CardProject
+          urlImage={jerezweb.image}
+          projectName={jerezweb.name}
+          projectType={jerezweb.type}
+          description={jerezweb.description}
+          tags={jerezweb.tags}
+          urlLive={jerezweb.urlLive}
+          urlRepo={jerezweb.urlRepo}
         />
         <CardProject
           urlImage={himnappweb.image}
