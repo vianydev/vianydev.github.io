@@ -28,7 +28,7 @@ const AboutMe = () => {
                   <ButtonBox
                     className="mx-0"
                     setTarget="_blank"
-                    url={"https://drive.google.com/file/d/1DdPqwDCfrmGZ-L7CB-v4V9TRTw9o4hvu/view?usp=sharing"}>
+                    url={"https://drive.google.com/file/d/1MOdAreMXOMsSV3dVfTpGkPwlO0VKdkBV/"}>
                     Resume
                   </ButtonBox>
                 </div>
