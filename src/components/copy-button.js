@@ -9,7 +9,7 @@ const CopyButton = ({ children, textToCopy }) => {
   return (
     <button
       onClick={copyText}
-      className="mx-auto h-16 cursor-pointer flex items-center mt-8 group text-sm font-medium px-6 py-2 relative border-2 border-indigo-400 text-indigo-400 hover:text-neutral-50 before:content-[''] before:absolute before:h-full before:top-0 before:left-0 before:w-0 before:bg-indigo-400 before:transition-all before:ease-out before:duration-300 hover:before:w-full before:z-0"
+      className="mx-auto h-16 cursor-pointer flex items-center mt-8 group text-sm font-mono tracking-wide px-6 py-2 relative border-2 border-indigo-600 text-indigo-600 hover:text-neutral-50 before:content-[''] before:absolute before:h-full before:top-0 before:left-0 before:w-0 before:bg-indigo-600 before:transition-all before:ease-out before:duration-300 hover:before:w-full before:z-0"
     >
       <div className="my-2 font-sm font-light opacity-0 text-indigo-400 group-hover:opacity-100 absolute right-0 -top-10 transition group-hover:-translate-y-2 ease-out duration-300">
         Click to copy
