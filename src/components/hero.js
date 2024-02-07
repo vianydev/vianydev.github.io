@@ -15,7 +15,7 @@ const Hero = () => {
         </h1>
 
         <p className="max-w-2xl mx-auto mt-6 text-xl text-center tracking-wide text-neutral-600/70">
-          Let&#39; s build something great, talk about tech and drink coffee
+          Let&#39; s create something great and drink coffee along the way
         </p>
 
         <div className="mt-11 mx-auto text-center text-indigo-600">

@@ -9,9 +9,9 @@ const ContactSection = () => {
         <div className="px-6 py-10 text-center">
           <h1 className="text-3xl font-semibold  text-neutral-600 lg:text-4xl capitalize">Get in touch
           </h1>
-          {/* <p className="mt-4 mx-auto pb-8 sm:w-2/3 text-md md:text-xl text-neutral-600/80">
-            You’d like to talk? Feel free to email me.
-          </p> */}
+          <p className="mt-4 mx-auto pb-8 sm:w-2/3 text-lg text-neutral-600/80">
+            Got a project idea brewing in your mind or just want to say hello? Please, drop me an email. Looking forward to connecting!
+          </p>
           <CopyButton textToCopy='vianydev@gmail.com'>
             vianydev@gmail.com
           </CopyButton>

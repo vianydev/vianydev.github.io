@@ -33,7 +33,6 @@ const Footer = () => {
             <Link href='/' className="inline-flex items-center space-x-3 lg:pr-16 pr-6">
               <img className="text-center" src="/image/vianey-logo.png" width={80} alt="logo vianey text" />
             </Link>
-            <p>simple. music & coffee</p>
           </div>
         </div>
       </div>
