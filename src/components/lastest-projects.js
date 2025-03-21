@@ -2,8 +2,9 @@ import CardProject from "./card-project"
 import ButtonPrimary from "./button-primary"
 import {
   himnapp,
-  construin,
-  temperamentos
+  algodon,
+  temperamentos,
+  losdaners,
 } from "@/assets/portfolio-projects"
 
 const LastestProjects = () => {
@@ -26,22 +27,22 @@ const LastestProjects = () => {
           urlRepo={himnapp.urlRepo}
         />
         <CardProject
-          urlImage={construin.image}
-          projectName={construin.name}
-          projectType={construin.type}
-          description={construin.description}
-          tags={construin.tags}
-          urlLive={construin.urlLive}
-          urlRepo={construin.urlRepo}
+          urlImage={algodon.image}
+          projectName={algodon.name}
+          projectType={algodon.type}
+          description={algodon.description}
+          tags={algodon.tags}
+          urlLive={algodon.urlLive}
+          urlRepo={algodon.urlRepo}
         />
         <CardProject
-          urlImage={temperamentos.image}
-          projectName={temperamentos.name}
-          projectType={temperamentos.type}
-          description={temperamentos.description}
-          tags={temperamentos.tags}
-          urlLive={temperamentos.urlLive}
-          urlRepo={temperamentos.urlRepo}
+          urlImage={losdaners.image}
+          projectName={losdaners.name}
+          projectType={losdaners.type}
+          description={losdaners.description}
+          tags={losdaners.tags}
+          urlLive={losdaners.urlLive}
+          urlRepo={losdaners.urlRepo}
         />
       </div>
       <div className="mt-10 w-full flex">

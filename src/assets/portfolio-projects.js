@@ -73,3 +73,41 @@ export const jerezweb = {
   urlRepo: '',
   urlLive: 'https://www.jerezyasociados.com.mx/'
 }
+export const sucval = {
+  name: 'SUCVAL',
+  type: 'web',
+  description: 'Website built according to the client\'s design',
+  tags: [ 'html/css', 'javascript', 'bootstrap' ],
+  image: "url(/image/sucval.jpg)",
+  urlRepo: 'https://github.com/vianydev/sucval',
+  urlLive: 'https://sucval.flatlatte.com/'
+}
+export const algodon = {
+  name: 'Algodón de Azucar',
+  type: 'web',
+  description: 'Website built according to the client\'s design',
+  tags: [ 'html/css', 'javascript', 'bootstrap' ],
+  image: "url(/image/algodon.jpg)",
+  urlRepo: 'https://github.com/vianydev/algodon-de-azucar',
+  urlLive: 'https://vianydev.github.io/algodon-de-azucar/'
+}
+
+export const losdaners = {
+  name: 'Los Daners',
+  type: 'web',
+  description: 'Website built according to the client\'s design',
+  tags: [ 'html/css', 'javascript', 'bootstrap' ],
+  image: "url(/image/los-daners-1.jpg)",
+  urlRepo: 'https://github.com/vianydev/losdaners',
+  urlLive: 'https://losdaners.flatlatte.com/'
+}
+
+export const localespalmitas = {
+  name: 'Locales Palmitas',
+  type: 'web',
+  description: 'Website built according to the client\'s design',
+  tags: [ 'html/css', 'javascript', 'bootstrap' ],
+  image: "url(/image/localespalmitas.jpg)",
+  urlRepo: 'https://github.com/vianydev/localespalmitas',
+  urlLive: 'https://localespalmitas.flatlatte.com/'
+}

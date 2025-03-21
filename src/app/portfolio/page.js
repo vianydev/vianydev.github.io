@@ -1,4 +1,4 @@
-import CardProject from "@/components/card-project"
+import CardProject from "@/components/card-project";
 
 import {
   himnapp,
@@ -6,8 +6,10 @@ import {
   pieb,
   temperamentos,
   himnappweb,
-  construin,
-  jerezweb
+  algodon,
+  sucval,
+  losdaners,
+  localespalmitas
 } from "@/assets/portfolio-projects"
 import ButtonSecondary from "@/components/button-secondary"
 
@@ -61,22 +63,40 @@ export default function Portfolio() {
           urlRepo={temperamentos.urlRepo}
         />
         <CardProject
-          urlImage={construin.image}
-          projectName={construin.name}
-          projectType={construin.type}
-          description={construin.description}
-          tags={construin.tags}
-          urlLive={construin.urlLive}
-          urlRepo={construin.urlRepo}
+          urlImage={algodon.image}
+          projectName={algodon.name}
+          projectType={algodon.type}
+          description={algodon.description}
+          tags={algodon.tags}
+          urlLive={algodon.urlLive}
+          urlRepo={algodon.urlRepo}
         />
         <CardProject
-          urlImage={jerezweb.image}
-          projectName={jerezweb.name}
-          projectType={jerezweb.type}
-          description={jerezweb.description}
-          tags={jerezweb.tags}
-          urlLive={jerezweb.urlLive}
-          urlRepo={jerezweb.urlRepo}
+          urlImage={sucval.image}
+          projectName={sucval.name}
+          projectType={sucval.type}
+          description={sucval.description}
+          tags={sucval.tags}
+          urlLive={sucval.urlLive}
+          urlRepo={sucval.urlRepo}
+        />
+        <CardProject
+          urlImage={losdaners.image}
+          projectName={losdaners.name}
+          projectType={losdaners.type}
+          description={losdaners.description}
+          tags={losdaners.tags}
+          urlLive={losdaners.urlLive}
+          urlRepo={losdaners.urlRepo}
+        />
+        <CardProject
+          urlImage={localespalmitas.image}
+          projectName={localespalmitas.name}
+          projectType={localespalmitas.type}
+          description={localespalmitas.description}
+          tags={localespalmitas.tags}
+          urlLive={localespalmitas.urlLive}
+          urlRepo={localespalmitas.urlRepo}
         />
         <CardProject
           urlImage={himnappweb.image}
@@ -87,6 +107,7 @@ export default function Portfolio() {
           urlLive={himnappweb.urlLive}
           urlRepo={himnappweb.urlRepo}
         />
+        
       </div>
 
 

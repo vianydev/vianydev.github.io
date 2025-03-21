@@ -55,8 +55,6 @@ const AboutMe = () => {
 
                 <div className="py-2 mt-2">
                   <ul className="marker:text-neutral-400 list-disc list-inside text-neutral-600/70">
-                    <li>WordPress</li>
-                    <li>Figma</li>
                     <li>Photography</li>
                     <li>Video editing</li>
                     <li>Music production</li>

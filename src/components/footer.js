@@ -35,6 +35,14 @@ const Footer = () => {
             </Link>
           </div>
         </div>
+        <div className="mt-8 md:mt-0 md:order-1 text-center">
+          <div className="mt-2 text-sm font-light text-gray-500 hover:text-indigo-600 transition ease-out delay-100">
+            <Link href='https://flatlatte.com/' target="_blank"  className="inline-flex items-center space-x-3 lg:pr-16 pr-6 font-mono tracking-widest">
+              www.flatlatte.com
+            </Link>
+          </div>
+        </div>
+
       </div>
     </footer>
   )
