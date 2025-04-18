@@ -44,7 +44,7 @@ export default function Portfolio() {
           urlLive={swmonse.urlLive}
           urlRepo={swmonse.urlRepo}
         />
-        <CardProject
+        {/* <CardProject
           urlImage={pieb.image}
           projectName={pieb.name}
           projectType={pieb.type}
@@ -52,7 +52,7 @@ export default function Portfolio() {
           tags={pieb.tags}
           urlLive={pieb.urlLive}
           urlRepo={pieb.urlRepo}
-        />
+        /> */}
         <CardProject
           urlImage={temperamentos.image}
           projectName={temperamentos.name}
@@ -98,7 +98,7 @@ export default function Portfolio() {
           urlLive={localespalmitas.urlLive}
           urlRepo={localespalmitas.urlRepo}
         />
-        <CardProject
+        {/* <CardProject
           urlImage={himnappweb.image}
           projectName={himnappweb.name}
           projectType={himnappweb.type}
@@ -106,7 +106,7 @@ export default function Portfolio() {
           tags={himnappweb.tags}
           urlLive={himnappweb.urlLive}
           urlRepo={himnappweb.urlRepo}
-        />
+        /> */}
         
       </div>
 
