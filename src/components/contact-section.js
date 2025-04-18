@@ -8,10 +8,10 @@ const ContactSection = () => {
 
         <div className="px-6 py-10 text-center">
           <h1 className="text-3xl font-semibold  text-neutral-600 lg:text-4xl capitalize">
-            Let’s build something meaningful
+            Let&#39;s build something meaningful
           </h1>
           <p className="mt-4 mx-auto pb-8 sm:w-2/3 text-lg text-neutral-600/80">
-          Got an idea you can't stop thinking about? Let's build it right - email me.
+          Got an idea you can&#39;t stop thinking about? Let&#39;s build it right - email me.
           </p>
           <CopyButton textToCopy='vianydev@gmail.com'>
             vianydev@gmail.com
