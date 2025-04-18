@@ -12,13 +12,12 @@ const AboutMe = () => {
                 <div className="relative">
                   <Image
                     className="object-cover object-center mx-auto rounded-lg filter contrast-75"
-                    // src="/image/profile-3.jpg"
-                    src="/image/vianey-icon1.png"
+                    src="/image/img_v_3.jpg"
                     placeholder='empty'
                     priority={true}
                     width={300}
                     height={300}
-                    alt="cup logo picture"
+                    alt=" logo picture"
                   />
 
                 </div>
@@ -31,8 +30,14 @@ const AboutMe = () => {
               About me
             </span>
             <h1 className="mb-4 text-xl font-normal leading-none text-neutral-600 md:text-2xl">
-              <span className="font-normal">Hello there!, I&#39;m</span> Vianey,
-              <p className="text-lg mt-4 tracking-normal"> I&#39;ve been into tech and project development since 2013. Fueled by my passion for innovation, I enjoy transforming ideas into digital experiences through the power of code!</p>
+              <span className="font-normal">Hola, I&#39;m</span> Vianey,
+              <p className="text-lg mt-4 tracking-normal">
+                Tech enthusiast & project developer since 2013. I turn caffeine (and overthinking) into clean, functional tech —no fluff, no noise. If it can be said in 10 words, I&#39;ll use 5.
+              </p>
+              <p className="text-lg mt-4 tracking-normal">
+                My brain runs on music, obsessive simplicity, and turning complex chaos into intuitive solutions.
+                When I&#39;m not coding, you&#39;ll find me brewing the perfect espresso or getting lost in a song&#39;s production details. 
+              </p>
               
             </h1>
 

@@ -3,7 +3,7 @@
 export const himnapp = {
   name: 'himnapp',
   type: 'app web',
-  description: 'A web app for visualizing song lyrics.',
+  description: '',
   tags: [ 'html/css', 'javascript', 'gatsby', 'mui' ],
   image: "url(/image/himnapp-3.jpg)",
   urlRepo: 'https://github.com/vianydev/himnapp',
@@ -12,7 +12,7 @@ export const himnapp = {
 export const swmonse = {
   name: 'Spanish with monse',
   type: 'Website',
-  description: 'Designed and developed exclusively for Spanish teachers to showcase her services and expertise.',
+  description: '',
   tags: [ 'html/css', 'javascript', 'reactjs' ],
   image: "url(/image/swmonse-2.jpg)",
   urlRepo: 'https://github.com/vianydev/spanish-with-monse',
@@ -21,7 +21,7 @@ export const swmonse = {
 export const temperamentos = {
   name: 'Temperamentos',
   type: 'app web',
-  description: 'Interactive web app that analyzes your personality traits and presents personalized results.',
+  description: '',
   tags: [ 'html/css', 'javascript', 'nextjs', 'tailwind' ],
   image: "url(/image/temperamentos-2.jpg)",
   urlRepo: 'https://github.com/vianydev/temperamentos',
@@ -67,7 +67,7 @@ export const himnappweb = {
 export const jerezweb = {
   name: 'Jerez y asociados',
   type: 'web',
-  description: 'Website built according to the client\'s design',
+  description: '',
   tags: [ 'html/css', 'javascript', 'bootstrap' ],
   image: "url(/image/jerezweb-2.jpg)",
   urlRepo: '',
@@ -76,7 +76,7 @@ export const jerezweb = {
 export const sucval = {
   name: 'SUCVAL',
   type: 'web',
-  description: 'Website built according to the client\'s design',
+  description: '',
   tags: [ 'html/css', 'javascript', 'bootstrap' ],
   image: "url(/image/sucval.jpg)",
   urlRepo: 'https://github.com/vianydev/sucval',
@@ -85,7 +85,7 @@ export const sucval = {
 export const algodon = {
   name: 'Algodón de Azucar',
   type: 'web',
-  description: 'Website built according to the client\'s design',
+  description: '',
   tags: [ 'html/css', 'javascript', 'bootstrap' ],
   image: "url(/image/algodon.jpg)",
   urlRepo: 'https://github.com/vianydev/algodon-de-azucar',
@@ -95,7 +95,7 @@ export const algodon = {
 export const losdaners = {
   name: 'Los Daners',
   type: 'web',
-  description: 'Website built according to the client\'s design',
+  description: '',
   tags: [ 'html/css', 'javascript', 'bootstrap' ],
   image: "url(/image/los-daners-1.jpg)",
   urlRepo: 'https://github.com/vianydev/losdaners',
@@ -105,7 +105,7 @@ export const losdaners = {
 export const localespalmitas = {
   name: 'Locales Palmitas',
   type: 'web',
-  description: 'Website built according to the client\'s design',
+  description: '',
   tags: [ 'html/css', 'javascript', 'bootstrap' ],
   image: "url(/image/localespalmitas.jpg)",
   urlRepo: 'https://github.com/vianydev/localespalmitas',

@@ -9,7 +9,7 @@ const Hero = () => {
           {/* Hello there */}
         </h2>
         <h1 className="max-w-5xl text-3xl font-bold leading-none capitalize tracking-tighter text-neutral-600 md:text-5xl lg:text-6xl lg:max-w-7xl">
-          Front-end developer
+          Web Developer
           {/* <br className="hidden lg:block" />
           <span className="text-neutral-600/70"> Digital Media Consultant</span> */}
         </h1>
