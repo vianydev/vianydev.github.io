@@ -5,17 +5,17 @@ const AboutMe = () => {
   return (
     <section id="about">
       <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-24 bg-neutral-50">
-        <div className="flex flex-wrap justify-center items-center mx-auto max-w-7xl">
+        <div className="flex flex-wrap justify-center items-start mx-auto max-w-7xl">
           <div className="w-full lg:max-w-lg lg:w-1/2 rounded-xl">
             <div className="">
-              <div className="relative w-full max-w-lg my-5 mx-auto">
+              <div className="relative w-full max-w-lg mb-5 mx-auto">
                 <div className="relative">
                   <Image
                     className="object-cover object-center mx-auto rounded-lg filter contrast-75"
-                    src="/image/img_v_3.jpg"
+                    src="/image/vianey-perfil-1.jpg"
                     placeholder='empty'
                     priority={true}
-                    width={300}
+                    width={500}
                     height={300}
                     alt=" logo picture"
                   />
